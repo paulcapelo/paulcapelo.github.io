@@ -1,5 +1,5 @@
 import algoliasearch from "algoliasearch";
-import { client } from "../lib/Client";
+import { client } from "../../lib/Client";
 import indexer, { flattenBlocks } from "sanity-algolia";
 
 
