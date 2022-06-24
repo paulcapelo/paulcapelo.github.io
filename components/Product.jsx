@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { urlFor } from "@/lib/Client";
+import { urlFor } from "../lib/Client";
 
 const HeroBanner = ({
   product: {

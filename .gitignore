@@ -30,6 +30,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
 /a_sanity_ecomerce
 a_sanity_ecomerce/
 /a_sanity_ecomerce/*

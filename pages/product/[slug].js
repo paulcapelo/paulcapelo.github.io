@@ -7,8 +7,8 @@ import {
 } from "react-icons/ai";
 import { PortableText } from "@portabletext/react";
 
-import { client, urlFor } from "@/lib/Client";
-import { Product } from "@/components/index";
+import { client, urlFor } from "../lib/Client";
+import { Product } from "../components/index";
 import { useStateContext } from "../../context/StateContext";
 
 const components = {
@@ -26,8 +26,7 @@ const ProductDetails = ({ product, products }) => {
   //   const { image, name, details, price } = product;
   const [index, setIndex] = useState(0);
   // decQty, incQty, qty,
-  const { qty, incQty, decQty, onAdd,setShowCart } = useStateContext();
-
+  const { qty, incQty, decQty, onAdd, setShowCart } = useStateContext();
 
   const handleBuyNow = () => {
     onAdd(product, qty);

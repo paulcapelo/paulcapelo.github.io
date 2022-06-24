@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { client } from "@/lib/Client";
+import { client } from "../lib/Client";
 const Search = (props) => {
   const router = useRouter();
   console.log(props);
@@ -21,6 +21,5 @@ export const getServerSideProps = async (prop) => {
 
   return { props: { products } };
 };
-
 
 //https://codesandbox.io/embed/github/algolia/doc-code-samples/tree/master/InstantSearch.js/getting-started
