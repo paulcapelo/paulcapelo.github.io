@@ -7,8 +7,8 @@ import {
 } from "react-icons/ai";
 import { PortableText } from "@portabletext/react";
 
-import { client, urlFor } from "../lib/Client";
-import { Product } from "../components/index";
+import { client, urlFor } from "../../lib/Client";
+import { Product } from "../../components/index";
 import { useStateContext } from "../../context/StateContext";
 
 const components = {
