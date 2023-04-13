@@ -1,8 +1,8 @@
-Application demo using Nextjs and sanity for ecommerce web 
+## Application demo using Nextjs and sanity for ecommerce web 
 
 with node 16
 
-## Getting Started
+ Getting Started
 
 First, run the development server:
 
